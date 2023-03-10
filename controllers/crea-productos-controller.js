@@ -5,12 +5,12 @@ const form = document.querySelector("[data-form]");
 form.addEventListener("submit", (evento) => {
   evento.preventDefault();
 
-  const nome = document.querySelector("[data-nome]").value;
+  const nombre = document.querySelector("[data-nome]").value;
   const url = document.querySelector("[data-url]").value;
-  const preco = document.querySelector("[data-preco]").value;
+  const precio = document.querySelector("[data-preco]").value;
 
   productoServices
-    .creaProdutos(nome, url, preco)
+    .creaProdutos(nombre, url, precio)
     .then((resposta) => {
       window.location.href = "../screens/index.html";
       console.log(resposta);
