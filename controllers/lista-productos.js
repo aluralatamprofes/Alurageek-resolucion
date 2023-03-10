@@ -5,7 +5,7 @@ const getProducts = (name, price, imageUrl, id) => {
   const card = document.createElement("div");
 
   const contenido = `
-    <div class="produto">
+    <div class="producto">
         <div class="container">
             <button class="buttonDelete" type="button">
               <img class="deleteImage" src="../assets/delete.png" alt="Deletar" />
@@ -22,7 +22,7 @@ const getProducts = (name, price, imageUrl, id) => {
         
         <img src="${imageUrl}" alt="img">
         <h1 class="product-name"> ${name} </h1>
-        <p class="preco">${formatPrice(price)}</p>
+        <p class="precio">${formatPrice(price)}</p>
     </div>
     `;
   card.innerHTML = contenido;

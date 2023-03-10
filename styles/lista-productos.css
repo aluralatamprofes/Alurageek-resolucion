@@ -40,14 +40,14 @@
 
   /*-----------------------Main-----------------------*/
 
-  .geral-prods {
+  .general-prods {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
   }
 
-  .sessao-produtos {
+  .seccion-productos {
 	height: 100%;
 	padding: 0px 150px 0px 150px;
 	display: flex;
@@ -70,7 +70,7 @@
 	color: #464646;
   }
 
-  .mostrar-mais {
+  .mostrar-mas {
 	font-weight: bold;
 	margin-top: 25px;
 	color: var(--azul-destaque);
@@ -78,19 +78,19 @@
 	padding: 30px;
   }
 
-  .div-verTudo {
+  .div-verTodo {
 	display: flex;
 	gap: 0.4rem;
 	margin-right: 10px;
   }
 
-  .produto {
+  .producto {
 	display: flex;
 	flex-direction: column;
 	margin-bottom: 32px;
   }
 
-  .verTudo {
+  .verTodo {
 	width: 15px;
 	height: 15px;
   }
@@ -100,13 +100,13 @@
 	font-weight: 500;
 	font-size: 14px;
   }
-  .preco {
+  .precio {
 	color: #464646;
 	font-weight: bold;
 	font-size: 16px;
   }
   
-  .ver-produto {
+  .ver-producto {
 	font-weight: bold;
 	font-size: 16px;
   }
