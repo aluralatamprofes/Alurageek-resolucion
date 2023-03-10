@@ -1,0 +1,114 @@
+{
+  "producto": [
+    {
+      "name": "Alura",
+      "imageUrl": "https://avatars.githubusercontent.com/u/4975968?s=280&v=4",
+      "price": "1",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star Wars",
+      "description": "alterado"
+    },
+    {
+      "name": "One",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlpa9JUDglJ_p5ecd3wZYJ6oNVkH-5dA-lS9zUZ0wyMvheUBgXnbKWhw44XtV1eYDUQjo&usqp=CAU",
+      "price": "100.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 4
+    },
+    {
+      "name": "Alura latam",
+      "imageUrl": "https://avatars.githubusercontent.com/u/4975968?s=280&v=4",
+      "price": "5",
+      "id": 6,
+      "description": ""
+    },
+    {
+      "name": "bic",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+      "price": "10",
+      "id": 7
+    },
+    {
+      "name": "Cuidado!",
+      "imageUrl": "https://m.media-amazon.com/images/I/51aqEMfw9KL._AC_SY879_.jpg",
+      "price": "123",
+      "id": 8,
+      "description": "Apenas um teste!"
+    },
+    {
+      "name": "Super Man",
+      "imageUrl": "https://juguetesdecoleccion.com/wp-content/uploads/muneco-superman-funko-pop.jpg",
+      "price": "20",
+      "id": 14
+    },
+    {
+      "name": "Darth Vader",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_975969-MLA46467090682_062021-O.webp",
+      "price": "25",
+      "id": 15
+    },
+    {
+      "name": "Flash",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+      "price": "25,99",
+      "id": 16,
+      "description": "25"
+    },
+    {
+      "name": "Batman",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_640262-MCO47330060660_092021-O.webp",
+      "price": "60",
+      "id": 17
+    },
+    {
+      "name": "Hulk",
+      "imageUrl": "https://m.media-amazon.com/images/I/516X0YLRV+L._AC_SY879_.jpg",
+      "price": "30",
+      "id": 18
+    },
+    {
+      "name": "Hombre araña",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_620343-MLA45333647274_032021-O.webp",
+      "price": "50",
+      "id": 19
+    },
+    {
+      "name": "Capitán America",
+      "imageUrl": "https://m.media-amazon.com/images/I/51aqEMfw9KL._AC_SY879_.jpg",
+      "price": "50",
+      "id": 20
+    },
+    {
+      "name": "Super Man",
+      "imageUrl": "https://juguetesdecoleccion.com/wp-content/uploads/muneco-superman-funko-pop.jpg",
+      "price": "80",
+      "id": 21
+    },
+    {
+      "name": "Flash",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_643523-MLA49180554005_022022-O.webp",
+      "price": "85",
+      "id": 22
+    },
+    {
+      "name": "Batman 2",
+      "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_640262-MCO47330060660_092021-O.webp",
+      "price": "60",
+      "id": 23
+    },
+    {
+      "name": "alura teste",
+      "imageUrl": "https://avatars.githubusercontent.com/u/4975968?s=280&v=4",
+      "price": "1",
+      "id": 25,
+      "description": "actualizado"
+    },
+    {
+      "name": "Teste",
+      "imageUrl": "http://127.0.0.1:5500/screens/add-products.html",
+      "price": "2",
+      "id": 26
+    }
+  ]
+}
