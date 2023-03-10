@@ -6,7 +6,7 @@
   --input-bg: #efefef;
   --texto-destaque: #ffff;
   --azul-destaque: #2a7ae4;
-  --bg-contato: #eaf2fd;
+  --bg-contacto: #eaf2fd;
   font-family: "Releway", sans-serif;
 }
 
@@ -124,8 +124,8 @@ nav {
 
 /*---------------Formulario Footer---------------*/
 
-.contato {
-  background-color: var(--bg-contato);
+.contacto {
+  background-color: var(--bg-contacto);
   display: flex;
   height: 365px;
   justify-content: center;
@@ -156,7 +156,7 @@ nav {
   margin-left: 6px;
 }
 
-.links-uteis {
+.links-utiles {
   display: flex;
   flex-direction: column;
   line-height: 40px;
@@ -164,7 +164,7 @@ nav {
   margin-right: 100px;
 }
 
-.links-uteis a {
+.links-utiles a {
   color: black;
   font-weight: normal;
 }
@@ -196,7 +196,7 @@ nav {
   transition: linear 1s;
 }
 
-.label-nome {
+.label-nombre {
   width: 100%;
   position: absolute;
   color: var(--input-placeholder);
@@ -205,7 +205,7 @@ nav {
   transition: 0.5s;
 }
 
-.input-nome:focus + .label-nome {
+.input-nombre:focus + .label-nombre {
   top: 64px;
   font-size: 14px;
   z-index: 2;
