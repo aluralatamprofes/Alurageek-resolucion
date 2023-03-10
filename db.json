@@ -103,12 +103,6 @@
       "price": "1",
       "id": 25,
       "description": "actualizado"
-    },
-    {
-      "name": "Teste",
-      "imageUrl": "http://127.0.0.1:5500/screens/add-products.html",
-      "price": "2",
-      "id": 26
     }
   ]
 }
