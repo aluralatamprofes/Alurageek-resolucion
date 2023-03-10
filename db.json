@@ -103,6 +103,12 @@
       "price": "1",
       "id": 25,
       "description": "actualizado"
+    },
+    {
+      "name": "Soy Geek",
+      "imageUrl": "https://img.freepik.com/vetores-gratis/conjunto-de-estilo-geek_1284-4509.jpg?w=2000",
+      "price": "16",
+      "id": 26
     }
   ]
 }
