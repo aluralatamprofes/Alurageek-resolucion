@@ -9,7 +9,7 @@ const inputNombre = document.querySelector("[data-nombre]");
 const inputPrecio = document.querySelector("[data-precio]");
 const inputDescripcion = document.querySelector("[data-descripcion]");
 
-productoServices.listarUnProduto(id).then((datos) => {
+productoServices.listarUnProducto(id).then((datos) => {
   inputImageUrl.setAttribute("src", datos.imageUrl);
   inputNombre.value = datos.name;
   inputPrecio.value = datos.price;
@@ -22,13 +22,13 @@ formulario.addEventListener("submit", (evento) => {
   evento.preventDefault();
 
   productoServices
-    .alteraProduto(
+    .alteraProducto(
       id,
       inputNombre.value,
       inputPrecio.value,
       inputDescripcion.value
     )
     .then(() => {
-      window.location.href = "../screens/produto.html";
+      window.location.href = "../screens/index.html";
     });
 });

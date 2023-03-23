@@ -4,7 +4,7 @@ const listaProductos = () =>
     .then((resposta) => resposta.json())
     .catch((error) => console.log(error));
 
-const listarUnProduto = (id) => {
+const listarUnProducto = (id) => {
   return fetch(`http://localhost:3000/producto/${id}`).then((resposta) => {
     return resposta.json();
   });
@@ -31,7 +31,7 @@ const creaProdutos = (name, imageUrl, price) => {
 };
 
 // PUT/PATCH
-const alteraProduto = async (id, name, price, description) => {
+const alteraProducto = async (id, name, price, description) => {
   return fetch(`http://localhost:3000/producto/${id}`, {
     method: "PATCH",
     headers: {
@@ -61,8 +61,8 @@ const deleteProducto = async (id) => {
 
 export const productoServices = {
   listaProductos,
-  listarUnProduto,
+  listarUnProducto,
   creaProdutos,
-  alteraProduto,
+  alteraProducto,
   deleteProducto,
 };
