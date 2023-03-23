@@ -5,8 +5,8 @@ const listaProductos = () =>
     .catch((error) => console.log(error));
 
 const listarUnProducto = (id) => {
-  return fetch(`http://localhost:3000/producto/${id}`).then((resposta) => {
-    return resposta.json();
+  return fetch(`http://localhost:3000/producto/${id}`).then((respuesta) => {
+    return respuesta.json();
   });
 };
 
@@ -22,11 +22,11 @@ const creaProdutos = (name, imageUrl, price) => {
       imageUrl,
       price,
     }),
-  }).then((resposta) => {
-    if (resposta.ok) {
-      return resposta.body;
+  }).then((respuesta) => {
+    if (respuesta.ok) {
+      return respuesta.body;
     }
-    throw new Error("Não foi possível criar um produto");
+    throw new Error("No fué posible crear un producto");
   });
 };
 
@@ -43,8 +43,8 @@ const alteraProducto = async (id, name, price, description) => {
       description,
     }),
   })
-    .then((resposta) => {
-      return resposta.json();
+    .then((respuesta) => {
+      return respuesta.json();
     })
     .catch((error) => console.log(error));
 };
