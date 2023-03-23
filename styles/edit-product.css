@@ -27,8 +27,8 @@ main {
 }
 
 .products_title {
-  background-color: blue;
   display: flex;
+  justify-content: center;
   font-weight: 700;
   font-size: 22px;
   line-height: 26px;
